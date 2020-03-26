@@ -8,7 +8,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "bundle": "webpack",
+    "bundle": "webpack --watch ",
     "server-dev": "nodemon ./server/proxy.js"
   },
   "dependencies": {
