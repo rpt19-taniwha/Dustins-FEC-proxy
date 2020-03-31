@@ -14,4 +14,4 @@ res.end(200);
 
 });
 
-proxy.listen(port, () => {console.log(`Proxy Server is Listening on part ${port}!`)});
+proxy.listen(port, () => {console.log(`Proxy Server is Listening on port ${port}!`)});
