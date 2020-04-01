@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src='http://localhost:9000/bundle.js' defer></script>
     <script src='http://localhost:8000/bundle.js' defer></script>
-    <script src='./bundle.js' defer></script>
+    <script src='http://localhost:1234/bundle.js' defer></script>
+    <script src='http://localhost:8080/bundle.js' defer></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src='/bundle.js' defer></script>
   </head>
   <body>
     <h1>Etsy Clone</h1>
     <div id="proxy"></div>
-    <div id="product"></div>
+    <div id="product-service"></div>
     <div id="youmayalsolike"></div>
     <div id="image"></div>
-    <div id="reviews"></div>
+    <div id="root"></div>
   </body>
 </html>
