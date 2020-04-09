@@ -9,7 +9,8 @@
   },
   "scripts": {
     "bundle": "webpack --watch ",
-    "server-dev": "nodemon ./server/proxy.js"
+    "server-dev": "nodemon ./server/proxy.js",
+    "start": " node ./server/proxy.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
