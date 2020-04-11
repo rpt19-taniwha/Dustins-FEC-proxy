@@ -13,15 +13,16 @@
     "start": " node ./server/proxy.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "path": "^0.12.7",
+    "pm2": "^4.2.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack": "^4.42.1"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "webpack": "^4.42.1",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
