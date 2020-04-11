@@ -11,6 +11,14 @@ proxy.use(express.static(path.join(__dirname, '/../public/')));
 
 proxy.use(cors());
 
+proxy.get('/product/:productNumber', (req, res) => {
+  console.log('req.url', req.url);
+  res.sendFile('index.html', {
+    root: path.join(__dirname, '/../public/'),
+  });
+});
+
+
 proxy.get('/listing/:productNumber', (req, res) => {
   res.sendFile('index.html', {
     root: path.join(__dirname, '/../public/'),
