@@ -9,18 +9,6 @@ class Proxy extends Component {
     this.state = {productNumber: '5'};
   }
 
-  // componentDidMount() {
-  //   this.getProduct();
-
-  // }
-  // getProduct() {
-  //   $.ajax('/products', {
-  //     success: (prod) => {
-  //       console.log('prod', prod);
-  //       this.setState({productNumber: prod});
-  //     }
-  //   })
-
 
   render() {
 
