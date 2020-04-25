@@ -16,12 +16,10 @@ class Proxy extends Component {
   //       console.log('data', data);
   //     }
   //   });
-
   // }
 
 
   render() {
-
 
     return (<div>Proxy Service is Rendering</div>);
 

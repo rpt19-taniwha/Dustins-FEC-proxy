@@ -11,7 +11,6 @@ proxy.use(express.static(path.join(__dirname, '/../public/')));
 
 
 proxy.get('/product/:productNumber', (req, res) => {
-  console.log('req.url', req.headers);
   res.sendFile('index.html', {
     root: path.join(__dirname, '/../public/'),
   });
