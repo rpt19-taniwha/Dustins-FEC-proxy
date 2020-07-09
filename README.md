@@ -26,7 +26,7 @@ Each service takes the id number at the end of the url and retrieves the service
 - It requires each of the services along with their DBMS to be installed locally.
 - to install dependencies: npm install
 - to get bundle: npm run bundle
-- to start server: npm run server-dev
+- to start server: npm run start or npm run server-dev for development
 
 ## Requirements
 - "node": ">=6.13.0"
