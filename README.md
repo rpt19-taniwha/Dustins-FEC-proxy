@@ -1,41 +1,38 @@
 # Dustins-FEC-proxy
 Proxy Repo for Etsy Mock
 
-# Project Name
+1. [Description](#Project-Description)
+2. [Usage](#Usage)
+3. [Requirements](#requirements)
 
-> Project description
 
-## Related Projects
+## Project-Description
+Name: Etsy Mock Listings App
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+This app connects the 4 Etsy Mock services found under the [Related-Projects](#Related-Projects) heading.
+Each service takes the id number at the end of the url and retrieves the service specific information.
 
-## Table of Contents
+## Related-Projects
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+  - [Product Service](https://github.com/rpt19-taniwha/mervin-fec-service)
+  - [You May Also Like Service](https://github.com/rpt19-taniwha/andy-fec-service)
+  - [Image Service](https://github.com/rpt19-taniwha/Dustins-FEC-Service)
+  - [Reviews Service](https://github.com/teamName/repo)
+
+
 
 ## Usage
 
-> Some usage instructions
+- It requires each of the services along with their DBMS to be installed locally.
+- to install dependencies: npm install
+- to get bundle: npm run bundle
+- to start server: npm run server-dev
 
 ## Requirements
+- "node": ">=6.13.0"
+- "axios": "^0.19.2",
+- "express": "^4.17.1",
+- "react": "^16.13.1",
+- "webpack": "^4.42.1"
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
