@@ -9,6 +9,8 @@ Proxy Repo for Etsy Mock
 ## Project-Description
 Name: Etsy Mock Listings App
 
+- [Proxy Visual](./https://us04web.zoom.us/j/8145542692?pwd=cXhoM2tmSG5CbGJZZUdjVkZjQ21mQT09)
+
 This app connects the 4 Etsy Mock services found under the [Related-Projects](#Related-Projects) heading.
 Each service takes the id number at the end of the url and retrieves the service specific information.
 
